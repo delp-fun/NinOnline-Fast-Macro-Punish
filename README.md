@@ -17,3 +17,5 @@ Fast Macro to punish using water prison + poison scalpel with direction check an
 > only for learning, done with simple key detection - no rpm/wpm here so it's much slower :c
 
 > simple key detection + threads=,  better pc = better perfomence, bad pc = worse perfomence
+
+I'm not gonna support and help with running - it's simple btw
