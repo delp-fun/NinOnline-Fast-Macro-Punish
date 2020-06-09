@@ -18,4 +18,4 @@ Fast Macro to punish using water prison + poison scalpel with direction check an
 
 > simple key detection + threads=,  better pc = better perfomence, bad pc = worse perfomence
 
-I'm not gonna support and help with running - it's simple btw
+I'm not gonna support and help with running - it's simple btw (I made error in one function - intentionally -> fix it -> use it)
