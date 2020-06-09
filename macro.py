@@ -4,14 +4,18 @@ import pyfiglet
 import time
 
 #Config
-last_key = ''
-ping = 0.225
-DirUp = 'Home'
-DirDown = 'End'
-DirLeft = 'Delete'
-DirRight = 'Page Down'
-WPkey = 'F1'
-PScalpelkey = 'q'
+last_key = '' #do not change
+ping = 0.15 #your ping 100ping = 0.1 , 150ping = 0.15 etc.
+DirUp = 'Home' #Direction Up Hotkey
+DirDown = 'End' #Direction Down Hotkey
+DirLeft = 'Delete' #Direction Left Hotkey
+DirRight = 'Page Down' #Direction Right Hotkey
+MoveUp = 'Up Arrow' #Move Up Hotkey
+MoveDown = 'Down Arrow' #Move Down Hotkey
+MoveLeft = 'Left Arrow' #Move Left Arrow
+MoveRight = 'Right Arrow' #Move Right Arrow
+WPkey = 'F1' #Water Prison Hotkey
+PScalpelkey = 'q' #Poison Scalpel Hotkey
 
 #Welcome
 fast_ascii = pyfiglet.figlet_format("Fast Macro Example")
@@ -21,20 +25,20 @@ def KeyCheck():
     print('[#] KeyCheck.Thread - Started! ')
     while True:
         global last_key
-        if (keyboard.is_pressed('Left Arrow')):
-            last_key = 'Left Arrow'
+        if (keyboard.is_pressed('MoveLeft')):
+            last_key = 'Left Arrow' #do not change
             print(last_key)
             time.sleep(0.15)
-        elif(keyboard.is_pressed('Right Arrow')):
-            last_key = 'Right Arrow'
+        elif(keyboard.is_pressed('MoveRight')):
+            last_key = 'Right Arrow' #do not change
             print(last_key)
             time.sleep(0.15)
-        elif(keyboard.is_pressed('Up Arrow')):
-            last_key = 'Up Arrow'
+        elif(keyboard.is_pressed('MoveUp')):
+            last_key = 'Up Arrow' #do not change
             print(last_key)
             time.sleep(0.15)
-        elif(keyboard.is_pressed('Down Arrow')):
-            last_key = 'Down Arrow'
+        elif(keyboard.is_pressed('MoveDown')):
+            last_key = 'Down Arrow' #do not change
             print(last_key)
             time.sleep(0.15)
 
